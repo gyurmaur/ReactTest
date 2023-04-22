@@ -2,11 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons';
-import { models } from './models';
-import TerminatorList from './components/terminator-list/terminator-list.component';
+import App from './App';
 
 
-ReactDOM.render(
-  <TerminatorList models = {models}/>,
-
-  document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
